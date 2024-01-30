@@ -1,26 +1,24 @@
 <template>
-<div> 
+  <div>
     <HeaderView />
-<HomeView/>
+    <HomeView />
     <FooterView />
-</div>
+  </div>
 </template>
 
 <script>
-import HomeView from './views/HomeView.vue'
-import HeaderView from '@/components/HeaderView.vue';
-import FooterView from '@/components/FooterView.vue';
+import HomeView from "./views/HomeView.vue";
+import HeaderView from "@/components/HeaderView.vue";
+import FooterView from "@/components/FooterView.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HomeView,
     HeaderView,
-    FooterView
-  }
-}
+    FooterView,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

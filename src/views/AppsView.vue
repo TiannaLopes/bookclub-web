@@ -1,15 +1,11 @@
 <template>
-    <div> Apps ...</div>
+  <div>Apps ...</div>
 </template>
 <script>
 export default {
-  name: 'Apps View',
-  components: {
- 
-  }
-}
+  name: "Apps View",
+  components: {},
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
