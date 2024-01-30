@@ -8,14 +8,13 @@
 
 <script>
 export default {
-  name: 'FooterView',
+  name: "FooterView",
   data() {
     return {
-      currentYear: new Date().getFullYear()
+      currentYear: new Date().getFullYear(),
     };
-  }
-}
+  },
+};
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
