@@ -3,7 +3,7 @@
 </template>
 <script>
 export default {
-  name: "Apps View",
+  name: "AppsView",
   components: {},
 };
 </script>
