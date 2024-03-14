@@ -3,7 +3,7 @@
 </template>
 <script>
 export default {
-  name: "Contact View",
+  name: "ContactView",
   components: {},
 };
 </script>

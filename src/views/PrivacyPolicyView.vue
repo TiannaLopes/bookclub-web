@@ -39,7 +39,7 @@
 
 <script>
 export default {
-  name: "Privacy Policy View",
+  name: "PrivacyPolicyView",
   components: {},
 };
 </script>

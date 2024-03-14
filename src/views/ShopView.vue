@@ -1,9 +1,9 @@
 <template>
-  <div>Apps ...</div>
+  <div>Shopping page...</div>
 </template>
 <script>
 export default {
-  name: "AppsView",
+  name: "ShopView",
   components: {},
 };
 </script>
