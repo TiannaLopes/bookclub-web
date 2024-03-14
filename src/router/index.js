@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
 import AboutView from "@/views/AboutView.vue";
 import AppsView from "@/views/AppsView.vue";
+import ShopView from "@/views/ShopView.vue";
 import ContactView from "@/views/ContactView.vue";
 import PrivacyPolicyView from "@/views/PrivacyPolicyView.vue";
 
@@ -21,6 +22,11 @@ const routes = [
     path: "/apps",
     name: "Apps",
     component: AppsView,
+  },
+   {
+    path: "/shop",
+    name: "Shop",
+    component: ShopView,
   },
   {
     path: "/contact",

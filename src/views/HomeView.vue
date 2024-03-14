@@ -36,6 +36,15 @@
         </div>
       </div>
 
+         <div class="row mb-5" id="apps">
+        <div class="col">
+          <h2>Shop</h2>
+          <p>Shop the Met at Bookclub store</p>
+          <button   @click="navigateToOurShop()">Shop &rarr;</button>
+         
+        </div>
+      </div>
+
       <div class="row mb-5" id="contact">
         <div class="col">
           <h2>Contact Us</h2>
@@ -62,6 +71,9 @@ export default {
     },  navigateToOurApps() {
       this.$router.push({ name: "Apps" });
     },
+    navigateToOurShop(){
+      this.$router.push({ name: "Shop" });
+    }
   },
 };
 </script>
