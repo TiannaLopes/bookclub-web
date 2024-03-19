@@ -36,12 +36,11 @@
         </div>
       </div>
 
-         <div class="row mb-5" id="apps">
+      <div class="row mb-5" id="apps">
         <div class="col">
           <h2>Shop</h2>
           <p>Shop the Met at Bookclub store</p>
-          <button   @click="navigateToOurShop()">Shop &rarr;</button>
-         
+          <button @click="navigateToOurShop()">Shop &rarr;</button>
         </div>
       </div>
 
@@ -61,19 +60,20 @@
 
 <script>
 export default {
-  name: "HomePage",
+  name: 'HomePage',
   methods: {
     navigateToAboutUs() {
-      this.$router.push({ name: "About" });
+      this.$router.push({ name: 'About' });
     },
     navigateToContactUs() {
-      this.$router.push({ name: "Contact" });
-    },  navigateToOurApps() {
-      this.$router.push({ name: "Apps" });
+      this.$router.push({ name: 'Contact' });
     },
-    navigateToOurShop(){
-      this.$router.push({ name: "Shop" });
-    }
+    navigateToOurApps() {
+      this.$router.push({ name: 'Apps' });
+    },
+    navigateToOurShop() {
+      this.$router.push({ name: 'Shop' });
+    },
   },
 };
 </script>

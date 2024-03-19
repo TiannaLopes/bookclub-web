@@ -24,7 +24,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#apps">Apps</a>
           </li>
-              <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="#shop">Shop</a>
           </li>
           <li class="nav-item">
@@ -38,7 +38,7 @@
 
 <script>
 export default {
-  name: "HeaderView",
+  name: 'HeaderView',
 };
 </script>
 

@@ -3,7 +3,7 @@ import axios from 'axios';
 const apiClient = axios.create({
   baseURL: process.env.VITE_PRINTFUL_API_ENDPOINT,
   headers: {
-    'Authorization': `Bearer ${process.env.VITE_PRINTFUL_API_KEY}`,
+    Authorization: `Bearer ${process.env.VITE_PRINTFUL_API_KEY}`,
   },
 });
 
@@ -75,5 +75,4 @@ export default {
       },
     });
   },
-
 };
