@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "FooterView",
+  name: 'FooterView',
   data() {
     return {
       currentYear: new Date().getFullYear(),
