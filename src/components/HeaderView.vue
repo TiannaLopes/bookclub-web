@@ -16,19 +16,44 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <router-link class="nav-link" :class="{ 'active': $route.name === 'Home' }" to="/">Home</router-link>
+            <router-link
+              class="nav-link"
+              :class="{ active: $route.name === 'Home' }"
+              to="/"
+              >Home</router-link
+            >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" :class="{ 'active': $route.name === 'About' }" to="/about">About</router-link>
+            <router-link
+              class="nav-link"
+              :class="{ active: $route.name === 'About' }"
+              to="/about"
+              >About</router-link
+            >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" :class="{ 'active': $route.name === 'Apps' }" to="/apps">Apps</router-link>
+            <router-link
+              class="nav-link"
+              :class="{ active: $route.name === 'Apps' }"
+              to="/apps"
+              >Apps</router-link
+            >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" :class="{ 'active': $route.name === 'Shop' }" to="/shop">Shop</router-link>
+            <router-link
+              class="nav-link"
+              :class="{ active: $route.name === 'Shop' }"
+              to="/shop"
+              >Shop</router-link
+            >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" :class="{ 'active': $route.name === 'Contact' }" to="/contact">Contact</router-link>
+            <router-link
+              class="nav-link"
+              :class="{ active: $route.name === 'Contact' }"
+              to="/contact"
+              >Contact</router-link
+            >
           </li>
         </ul>
       </div>
@@ -50,8 +75,8 @@ export default {
 }
 .navbar-brand {
   font-family: 'Playfair Display', serif;
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 2rem;
-  color: #442F38; 
+  color: #442f38;
 }
 </style>

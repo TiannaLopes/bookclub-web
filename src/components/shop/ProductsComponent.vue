@@ -36,6 +36,7 @@ export default {
     },
     addToCart(product) {
       // Logic to add product to cart
+      console.log(product);
     }
   },
   created() {

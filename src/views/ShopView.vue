@@ -1,9 +1,9 @@
 <template>
   <div id="shop-view" class="container py-5 my-5">
     <section class="text-center mb-5">
-      <h1 class="display-4 fw-bold" style="color: #3D0814;">Our Store</h1>
-    </section>   
-      <ProductsComponent />
+      <h1 class="display-4 fw-bold" style="color: #3d0814">Our Store</h1>
+    </section>
+    <ProductsComponent />
     <CartComponent />
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
   name: 'ShopView',
   components: {
     ProductsComponent,
-    CartComponent
+    CartComponent,
   },
 };
 </script>
