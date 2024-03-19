@@ -11,6 +11,8 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^3.0.10",
+    "axios": "^1.6.7",
     "bootstrap": "^5.3.2",
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
