@@ -20,6 +20,13 @@
           <p class="text-muted" style="color: #a6ad73">
             Information about the company, its history, mission, and values.
           </p>
+            <button
+            class="btn btn-dark"
+            @click="navigateToAboutUs()"
+            style="background-color: #442f38"
+          >
+            Read about us &rarr;
+          </button>
         </div>
         <div class="col-md-6">
           <img
@@ -38,6 +45,13 @@
           <p class="text-muted" style="color: #a6ad73">
             Details about the apps offered by the company.
           </p>
+           <button
+            class="btn btn-dark"
+            @click="navigateToOurApps()"
+            style="background-color: #442f38"
+          >
+            See our apps &rarr;
+          </button>
         </div>
         <div class="col-md-6">
           <img
@@ -51,7 +65,7 @@
 
       <!-- Shop section -->
       <div class="row mb-5" id="shop">
-        <div class="col text-center">
+        <div class="col-6">
           <h2 style="color: #c6b38e">Shop</h2>
           <p class="text-muted" style="color: #a6ad73">
             Shop the Met at Bookclub store.
@@ -64,12 +78,27 @@
             Shop &rarr;
           </button>
         </div>
+          <div class="col-md-6">
+          <img
+            class="image-size img-fluid"
+            src="../assets/shop.png"
+            @click="navigateToOurShop()"
+            alt="About Us"
+          />
+        </div>
       </div>
 
       <!-- Contact Us section -->
       <div class="row mb-5" id="contact">
         <div class="col-md-6">
           <h2 style="color: #c6b38e">Contact Us</h2>
+           <button
+            class="btn btn-dark"
+            @click="navigateToContactUs()"
+            style="background-color: #442f38"
+          >
+            Contact us &rarr;
+          </button>
         </div>
         <div class="col-md-6">
           <img
