@@ -1,12 +1,10 @@
 <template>
   <div id="apps-view" class="container py-5 my-5">
     <section class="text-center mb-5">
-      <h1 class="display-4 fw-bold" style="color: #3d0814">Our Apps</h1>
-      <p class="lead" style="color: #a6ad73">
-        Dedicated to excellence and innovation in our field.
-      </p>
-    </section>
-    <div class="row">
+      <h1 class="display-4 fw-bold" style="color: #3D0814;">Our Apps</h1>
+      <p class="lead" style="color: #A6AD73;">Dedicated to excellence and innovation in our field.</p>
+    </section>  
+      <div class="row">
       <div class="col-md-4 mb-4" v-for="app in apps" :key="app.id">
         <div class="card h-100">
           <img :src="app.image" class="card-img-top" :alt="app.name" />
@@ -26,24 +24,9 @@ export default {
   data() {
     return {
       apps: [
-        {
-          id: 1,
-          name: 'App One',
-          image: '@/assets/placeholder.png',
-          description: 'An innovative solution to problem X.',
-        },
-        {
-          id: 2,
-          name: 'App Two',
-          image: '@/assets/placeholder.png',
-          description: 'A tool for managing Y with ease.',
-        },
-        {
-          id: 3,
-          name: 'App Three',
-          image: '@/assets/placeholder.png',
-          description: 'Streamlining Z for better efficiency.',
-        },
+        { id: 1, name: 'App One', image: '@/assets/placeholder.png', description: 'An innovative solution to problem X.' },
+        { id: 2, name: 'App Two', image: '@/assets/placeholder.png', description: 'A tool for managing Y with ease.' },
+        { id: 3, name: 'App Three', image: '@/assets/placeholder.png', description: 'Streamlining Z for better efficiency.' },
       ],
     };
   },
