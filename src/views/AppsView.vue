@@ -8,14 +8,20 @@
     </section>
     <div class="row">
       <div class="col-md-4 mb-4" v-for="app in apps" :key="app.id">
-        <div class="card h-100">
-          <!-- Using the first screenshot as the app image -->
-          <img :src="app.screenshots[0]" class="card-img-top" :alt="app.name" />
-          <div class="card-body">
-            <h5 class="card-title">{{ app.name }}</h5>
-            <p class="card-text">{{ app.description }}</p>
+        <!-- Updated part -->
+        <router-link
+          :to="{ name: 'AppDetail', query: { appId: app.id } }"
+          class="card-link"
+        >
+          <div class="card h-100">
+            <img :src="app.image" class="card-img-top" :alt="app.name" />
+            <div class="card-body">
+              <h5 class="card-title">{{ app.name }}</h5>
+              <p class="card-text">{{ app.description }}</p>
+            </div>
           </div>
-        </div>
+        </router-link>
+        <!-- /Updated part -->
       </div>
     </div>
   </div>
