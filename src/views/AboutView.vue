@@ -3,10 +3,10 @@
     <!-- About Section -->
     <section class="text-center mb-5">
       <h1 class="display-4 fw-bold" style="color: #3d0814">
-        About Our Company
+        About Met at Bookclub
       </h1>
       <p class="lead" style="color: #a6ad73">
-        Dedicated to excellence and innovation in our field.
+        Connecting a community of readers.
       </p>
     </section>
 
@@ -14,7 +14,7 @@
     <section class="row mb-5">
       <div class="col-lg-6 mb-3">
         <img
-          src="../assets/aboutUs.png"
+          src="../assets/ourMission.png"
           class="img-fluid rounded"
           alt="Our Mission"
         />
@@ -42,7 +42,7 @@
       </div>
       <div class="col-lg-6 mb-3">
         <img
-          src="../assets/aboutUs.png"
+          src="../assets/ourVision.png"
           class="img-fluid rounded"
           alt="Our Vision"
         />
@@ -85,7 +85,7 @@
         <div class="col-md-4 mb-3">
           <div class="card">
             <img
-              src="../assets/aboutUs.png"
+              src="../assets/placeholder.png"
               class="card-img-top"
               alt="Team Member"
             />
@@ -99,7 +99,7 @@
         <div class="col-md-4 mb-3">
           <div class="card">
             <img
-              src="../assets/aboutUs.png"
+              src="../assets/placeholder.png"
               class="card-img-top"
               alt="Team Member"
             />
@@ -113,7 +113,7 @@
         <div class="col-md-4 mb-3">
           <div class="card">
             <img
-              src="../assets/aboutUs.png"
+              src="../assets/placeholder.png"
               class="card-img-top"
               alt="Team Member"
             />
