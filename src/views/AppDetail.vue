@@ -2,7 +2,11 @@
   <div id="app-detail" class="container py-5 my-5">
     <section class="text-center mb-5">
       <h1 class="display-4 fw-bold">{{ app.name }}</h1>
-      <img :src="app.image" alt="App image" class="mb-3" />
+      <img
+        :src="require('@/assets/bookclub/icon.png')"
+        alt="App image"
+        class="mb-3"
+      />
       <p class="lead">{{ app.description }}</p>
       <router-link to="/apps" class="btn btn-primary">Back to Apps</router-link>
     </section>
