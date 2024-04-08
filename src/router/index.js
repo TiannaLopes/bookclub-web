@@ -6,7 +6,7 @@ import AppsView from '@/views/AppsView.vue';
 import ShopView from '@/views/ShopView.vue';
 import ContactView from '@/views/ContactView.vue';
 import PrivacyPolicyView from '@/views/PrivacyPolicyView.vue';
-
+import AppDetail from '@/views/AppDetail.vue';
 const routes = [
   {
     path: '/',
@@ -37,6 +37,11 @@ const routes = [
     path: '/privacy-policy',
     name: 'PrivacyPolicy',
     component: PrivacyPolicyView,
+  },
+  {
+    path: '/app-detail',
+    name: 'AppDetail',
+    component: AppDetail,
   },
 ];
 

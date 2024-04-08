@@ -1,0 +1,51 @@
+[
+  {
+    "name": "BookClub Web",
+    "description": "BookClub Web is an online platform that connects book lovers across the globe. Participate in book discussions, join book clubs tailored to your interests, and discover your next great read.",
+    "features": [
+      "Personalized book recommendations",
+      "Variety of book clubs and reading groups",
+      "Interactive discussion forums",
+      "Event calendars for book-related events",
+      "Reading progress tracker and book lists"
+    ],
+    "availability": {
+      "webUrl": "https://www.bookclub-web.com",
+      "platforms": ["Web"]
+    },
+    "screenshots": [
+      "https://www.bookclub-web.com/screenshot1.jpg",
+      "https://www.bookclub-web.com/screenshot2.jpg"
+    ],
+    "reviews": {
+      "averageRating": "4.5",
+      "totalReviews": "1500",
+      "highlightedReview": {
+        "author": "Jane Doe",
+        "rating": "5",
+        "comment": "I've found so many amazing books through BookClub Web and have met some incredible reading buddies! The discussion forums are really engaging."
+      }
+    },
+    "socialMedia": [
+      {
+        "platform": "Twitter",
+        "link": "https://twitter.com/bookclubweb"
+      },
+      {
+        "platform": "Facebook",
+        "link": "https://www.facebook.com/bookclubweb"
+      },
+      {
+        "platform": "Instagram",
+        "link": "https://www.instagram.com/bookclubweb"
+      }
+    ],
+    "contact": {
+      "supportEmail": "support@bookclub-web.com",
+      "phone": "+1-800-BOOKCLUB"
+    },
+    "faqLink": "https://www.bookclub-web.com/faq",
+    "privacyPolicyLink": "https://www.bookclub-web.com/privacy",
+    "termsAndConditionsLink": "https://www.bookclub-web.com/terms"
+  }
+]
