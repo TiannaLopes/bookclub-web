@@ -5,7 +5,7 @@ import AboutView from '@/views/AboutView.vue';
 import AppsView from '@/views/AppsView.vue';
 import ShopView from '@/views/ShopView.vue';
 import ContactView from '@/views/ContactView.vue';
-import PrivacyPolicyView from '@/views/PrivacyPolicyView.vue';
+import MetAtBookClubPrivacyPolicyView from '@/views/privacy-policies/MetAtBookClubPrivacyPolicyView.vue';
 import AppDetail from '@/views/AppDetail.vue';
 const routes = [
   {
@@ -36,7 +36,7 @@ const routes = [
   {
     path: '/privacy-policy',
     name: 'PrivacyPolicy',
-    component: PrivacyPolicyView,
+    component: MetAtBookClubPrivacyPolicyView,
   },
   {
     path: '/app-detail',
