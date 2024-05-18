@@ -1,11 +1,11 @@
 <template>
   <div>
     <h1>Privacy Policy</h1>
-    <p><strong>Effective Date:</strong> [Insert Date]</p>
+    <p><strong>Effective Date:</strong>May 2024</p>
     <p>
-      [Your App Name] ("we," "us," or "our") is committed to protecting your
+      BookClub Web ("we," "us," or "our") is committed to protecting your
       privacy. This Privacy Policy explains how your personal information is
-      collected, used, and disclosed by [Your App Name].
+      collected, used, and disclosed by BookClub Web.
     </p>
 
     <h2>Information We Collect</h2>
@@ -75,7 +75,7 @@
     <h2>Contact Us</h2>
     <p>
       If you have any questions about this Privacy Policy, please contact us at
-      [your email support].
+      met-at-bookclub@gmail.com.
     </p>
 
     <h2>Data Retention</h2>
