@@ -1,51 +1,104 @@
-[
-  {
-    "name": "BookClub Web",
-    "description": "BookClub Web is an online platform that connects book lovers across the globe. Participate in book discussions, join book clubs tailored to your interests, and discover your next great read.",
-    "features": [
-      "Personalized book recommendations",
-      "Variety of book clubs and reading groups",
-      "Interactive discussion forums",
-      "Event calendars for book-related events",
-      "Reading progress tracker and book lists"
-    ],
-    "availability": {
-      "webUrl": "https://www.bookclub-web.com",
-      "platforms": ["Web"]
-    },
-    "screenshots": [
-      "https://www.bookclub-web.com/screenshot1.jpg",
-      "https://www.bookclub-web.com/screenshot2.jpg"
-    ],
-    "reviews": {
-      "averageRating": "4.5",
-      "totalReviews": "1500",
-      "highlightedReview": {
-        "author": "Jane Doe",
-        "rating": "5",
-        "comment": "I've found so many amazing books through BookClub Web and have met some incredible reading buddies! The discussion forums are really engaging."
-      }
-    },
-    "socialMedia": [
-      {
-        "platform": "Twitter",
-        "link": "https://twitter.com/bookclubweb"
+{
+  "apps": [
+    {
+      "name": "BookClub Web",
+      "description": "BookClub Web is an online platform that connects book lovers across the globe. Participate in book discussions, join book clubs tailored to your interests, and discover your next great read.",
+      "features": [
+        "Personalized book recommendations",
+        "Variety of book clubs and reading groups",
+        "Interactive discussion forums",
+        "Event calendars for book-related events",
+        "Reading progress tracker and book lists"
+      ],
+      "availability": {
+        "webUrl": "https://www.bookclub-web.com",
+        "platforms": ["Web"]
       },
-      {
-        "platform": "Facebook",
-        "link": "https://www.facebook.com/bookclubweb"
+      "screenshots": [
+        "https://www.bookclub-web.com/screenshot1.jpg",
+        "https://www.bookclub-web.com/screenshot2.jpg"
+      ],
+      "reviews": {
+        "averageRating": "4.5",
+        "totalReviews": "1500",
+        "highlightedReview": {
+          "author": "Jane Doe",
+          "rating": "5",
+          "comment": "I've found so many amazing books through BookClub Web and have met some incredible reading buddies! The discussion forums are really engaging."
+        }
       },
-      {
-        "platform": "Instagram",
-        "link": "https://www.instagram.com/bookclubweb"
-      }
-    ],
-    "contact": {
-      "supportEmail": "support@bookclub-web.com",
-      "phone": "+1-800-BOOKCLUB"
+      "socialMedia": [
+        {
+          "platform": "Twitter",
+          "link": "https://twitter.com/bookclubweb"
+        },
+        {
+          "platform": "Facebook",
+          "link": "https://www.facebook.com/bookclubweb"
+        },
+        {
+          "platform": "Instagram",
+          "link": "https://www.instagram.com/bookclubweb"
+        }
+      ],
+      "contact": {
+        "supportEmail": "support@bookclub-web.com",
+        "phone": "+1-800-BOOKCLUB"
+      },
+      "faqLink": "https://www.bookclub-web.com/faq",
+      "privacyPolicyLink": "https://www.bookclub-web.com/privacy",
+      "termsAndConditionsLink": "https://www.bookclub-web.com/terms",
+      "image": "src/assets/bookclub/icon.png"
     },
-    "faqLink": "https://www.bookclub-web.com/faq",
-    "privacyPolicyLink": "https://www.bookclub-web.com/privacy",
-    "termsAndConditionsLink": "https://www.bookclub-web.com/terms"
-  }
-]
+    {
+      "name": "MetaAtBookClub",
+      "description": "MetaAtBookClub is a mobile app for iOS that lets you create an account to join local and virtual book clubs. Discover nearby events, manage your book club meetings, and engage with your reading community.",
+      "features": [
+        "Create personal profiles",
+        "Join and manage book clubs",
+        "Schedule and RSVP to meetings",
+        "Post updates and discussions",
+        "Location-based club suggestions"
+      ],
+      "availability": {
+        "appStoreUrl": "https://www.apple.com/ios/app-store/",
+        "platforms": ["iOS"]
+      },
+      "screenshots": [
+        "https://www.metaatbookclub.com/screenshot1.jpg",
+        "https://www.metaatbookclub.com/screenshot2.jpg"
+      ],
+      "reviews": {
+        "averageRating": "4.8",
+        "totalReviews": "500",
+        "highlightedReview": {
+          "author": "Alex Smith",
+          "rating": "5",
+          "comment": "Joining book clubs has never been easier! I love the community feel and the intuitive design of the app."
+        }
+      },
+      "socialMedia": [
+        {
+          "platform": "Twitter",
+          "link": "https://twitter.com/metaatbookclub"
+        },
+        {
+          "platform": "Facebook",
+          "link": "https://www.facebook.com/metaatbookclub"
+        },
+        {
+          "platform": "Instagram",
+          "link": "https://www.instagram.com/metaatbookclub"
+        }
+      ],
+      "contact": {
+        "supportEmail": "help@metaatbookclub.com",
+        "phone": "+1-800-METAABC"
+      },
+      "faqLink": "https://www.metaatbookclub.com/faq",
+      "privacyPolicyLink": "https://www.metaatbookclub.com/privacy",
+      "termsAndConditionsLink": "https://www.metaatbookclub.com/terms",
+      "image": "src/assets/metaatbookclub/icon.png"
+    }
+  ]
+}
